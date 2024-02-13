@@ -130,13 +130,12 @@ footer{
 }
 
 .img-2 img{
-    width: 90%;
+    width: 60%;
     
 }
 .paragraph{
-    margin-right: 30px;
-    display: grid;
-
+   position: relative;
+   right: 40px;
 }
 .paragraph h2{
     color:hsl(236, 13%, 42%);
@@ -203,8 +202,17 @@ footer{
         bottom: 20px;
         width: 50%;
     }
+
+    .paragraph{
+        position: relative;
+        left: 5px;
+        width: 100%;
+    }
+    .img-2 img{
+        width: 70%;
+    }
     footer{
-        display: grid;
+        display: block;
     }
 
     
