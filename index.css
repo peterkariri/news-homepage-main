@@ -85,6 +85,7 @@ main{
     grid-column-start: span 2;
 
 }
+#menu-2{display: none;}
 .content{
     display: flex;
     align-items: center;
@@ -181,13 +182,34 @@ footer{
     #desktop{
         display: none;
     }
+    #nav-link{
+        position: fixed;
+        top: 30px;
+        right: 0;
+    
+        display: none;
+    }
     #menu-1{
         display: block;
         float: right;
         margin: 0;
         padding-top: 11px;
+        width: 25px;
+        position: relative;
+        right: 15px;
+        
         
     }
+    #menu-2{
+        display: block;
+        float: right;
+        margin: 0;
+        width: 15px;
+        position: relative;
+        top:30px;
+        left: 5px;
+
+    } 
     
     .pbutton{
         width: 90%;
